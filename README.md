@@ -19,19 +19,22 @@ This project builds and evaluates predictive models to classify individuals as *
   Decision tree model (rpart), plotting the tree, and evaluating performance on train/test.
 
 ### Figures
-- `figures/S_curve_BMI.png`  
+- `figures/scurve_bmi.png`  
   Logistic S-curve visualization for BMI vs predicted probability of High Risk.
-- `figures/S_curve_Age.png`  
+- `figures/scurve_age.png`  
   Logistic S-curve visualization for Age vs predicted probability of High Risk.
-- `figures/S_curve_Sleep.png`  
+- `figures/scurve_sleep.png`  
   Logistic S-curve visualization for Sleep duration vs predicted probability of High Risk.
 - `figures/Plot_on_Testing.png`  
   Distribution of predicted classes on the testing dataset.
 - `figures/Plot_on_Training.png`  
-  Distribution of predicted classes on the testing dataset.
-- `figures/decissoin_tree.png`  
-  Distribution of predicted classes on the testing dataset.
+  Distribution of predicted classes on the Training dataset.
+- `figures/decision_tree.png`  
+  Decision Tree for Health Risk Classification.
+- `figures/Predicted_Probabilities_histogram.png`  
+  Distribution of Predicted Health Risk Probabilities.
 
+  
 ## Methods Summary
 1. Split data into training and testing sets  
 2. Train Logistic Regression (`glm(..., family="binomial")`)
