@@ -9,6 +9,8 @@ This project builds and evaluates predictive models to classify individuals as *
 ## Project Overview
 
 This project focuses on predicting **health risk levels (Low vs High)** using interpretable machine learning models based on demographic and lifestyle factors. The objective is not only to achieve high predictive accuracy but also to understand how variables such as **age, BMI, sleep duration, exercise, smoking, alcohol consumption, and sugar intake** influence health risk.
+
+
 ![Study](figures/overview.png)
 
 Two models are developed and compared:
@@ -65,6 +67,7 @@ The dataset contains individual-level health and lifestyle information, includin
 - **Type II Error (False Negative Rate):** 4.3%  
 
 *The model shows strong generalization and high sensitivity in detecting high-risk individuals, which is desirable for health screening applications.*
+
 ![Logistic Regression Model Accuracy](figures/Model_Acc.png)
 ---
 
@@ -75,6 +78,7 @@ The dataset contains individual-level health and lifestyle information, includin
 - **Type II Error (False Negative Rate):** 1.8%  
 
 *The decision tree achieves superior accuracy with low error rates and offers highly interpretable decision rules.*
+
 ![Decision Tree Model Accuracy](figures/Model_Accuracy.png)
 ---
 
