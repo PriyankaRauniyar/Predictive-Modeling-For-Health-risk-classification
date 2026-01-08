@@ -9,6 +9,7 @@ This project builds and evaluates predictive models to classify individuals as *
 ## Project Overview
 
 This project focuses on predicting **health risk levels (Low vs High)** using interpretable machine learning models based on demographic and lifestyle factors. The objective is not only to achieve high predictive accuracy but also to understand how variables such as **age, BMI, sleep duration, exercise, smoking, alcohol consumption, and sugar intake** influence health risk.
+![Study](figures/overview.png)
 
 Two models are developed and compared:
 - **Logistic Regression** for probabilistic interpretation
